@@ -45,15 +45,12 @@ entry = wx.TextCtrl(panel, pos=(20, 20), size=(200, 25))
 entry.SetHint("Enter movie or series name…")
 entry.SetFont(italic_font)
 
-# Search button
 button = wx.Button(panel, label="Search 🎀", pos=(240, 18))
 button.Bind(wx.EVT_BUTTON, get_movie)
 
-# Trailer Button
 trailer_btn = wx.Button(panel, label="Watch Trailer 🎬", pos=(20, 260))
 trailer_btn.Bind(wx.EVT_BUTTON, open_trailer)
 
-# Output text box
 output = wx.StaticText(panel, label="", pos=(20, 70), size=(380, 180))
 output.SetFont(italic_font)
 
