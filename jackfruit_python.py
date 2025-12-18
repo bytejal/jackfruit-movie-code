@@ -1,4 +1,4 @@
-mport wx
+import wx
 import requests
 import webbrowser
 
